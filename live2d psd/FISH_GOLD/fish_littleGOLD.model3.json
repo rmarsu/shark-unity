@@ -1,0 +1,22 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "fish_littleGOLD.moc3",
+		"Textures": [
+			"fish_littleGOLD.1024/texture_00.png"
+		],
+		"DisplayInfo": "fish_littleGOLD.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

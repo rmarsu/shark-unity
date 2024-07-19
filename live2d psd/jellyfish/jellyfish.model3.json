@@ -1,0 +1,10 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "jellyfish.moc3",
+		"Textures": [
+			"jellyfish.1024/texture_00.png"
+		],
+		"DisplayInfo": "jellyfish.cdi3.json"
+	}
+}
