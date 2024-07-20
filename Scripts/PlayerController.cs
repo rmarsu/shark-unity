@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         float moveY = Input.GetAxis("Vertical");
         Vector2 movement = new Vector2(moveX, moveY);
         movement.Normalize();
-        Vector2 position = (Vector2)transform.position + new Vector2(moveX * speed * Time.deltaTime, speed * Time.deltaTime * moveY);
+        Vector2 position = (Vector2)transform.position + movement * Time.deltaTime * speed;
         transform.position = position;
         if (moveX < 0 && facingRight)
         {
